@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+
+/*Inicio do header*/
+header {
+    display: flex;
+    padding: 40px;
+    background-color: rgb(54, 2, 80);
+    align-items: center;
+}
+
+.logo-news {
+    font-size: 36px;
+    color: rgb(61, 244, 88);
+    margin-right: 120px;
+}
+
+.menu-nav {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    color: rgb(254, 251, 251);
+}
+
+nav input {
+    margin-left: 60px;
+    padding: 4px;
+    width: 250px;
+}
+
+nav img {
+    box-sizing: content-box;
+    background-color: rgb(220, 216, 212);
+    margin-left: 10px;
+}
+
+/*fim do header*/
+
+/*Inicio do Main*/
+.hero {
+    background-color: rgb(240, 248, 255);
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(4, 4, 104);
+    margin: 25
+    px 25px;
+}
+
+.news-main {
+    background-color:rgb(240, 248, 255);
+    width: 98%;
+}
+
+.news-main img {
+    height: 250px;
+    width: 350px;
+}
+
+.news-main h2 {
+    display: inline;
+    font-size: 36px;
+    margin: 40px 25px;
+    color: rgb(14, 11, 11);
+}
+
+.news-main h3 {
+    font-size: 30px;
+    margin: 0px 25px;
+    color: rgb(14, 11, 11);
+    width: 100%;
+    height: 60px;
+}
+.policy {
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    height: 300px;
+}
+
+.policy img {
+    margin: 0 20px;
+}
+
+.policy p {
+    font-size: 19px;
+    margin-right: 15px;
+}
+
+.economy {
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    height: 300px;
+}
+
+.economy img {
+    margin: 0 20px;
+}
+
+.economy p {
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+.health {
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    height: 300px;
+}
+
+.health img {
+    margin: 0 20px;
+}
+
+.health p {
+    font-size: 17px;
+}
+
+.sport {
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    height: 300px;
+}
+
+.sport img {
+    margin: 0 20px;
+}
+
+.sport p {
+    font-size: 17px;
+}
+
+.technology {
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    height: 300px;
+}
+
+.technology img {
+    margin: 0 20px;
+}
+
+.technology p {
+    font-size: 17px;
+}
+/*Fim do Main*/
+
+/*Inicio footer*/
+footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color:  rgb(54, 2, 80);
+}
+
+footer h5 {
+    color: rgb(61, 244, 88);
+    font-size: 16px;
+    margin-left: 40%;
+    min-height: 50%;
+}
+/*Fim do Footer*/
