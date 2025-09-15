@@ -13,15 +13,14 @@
     <header>
         <h2 class="logo-news">DevNews</h2>
         <nav>
-            <a class="menu-nav" href="#">Página inicial</a>
-            <a class="menu-nav" href="#">Politica</a>
-            <a class="menu-nav" href="#">Economia</a>
-            <a class="menu-nav" href="#">Saúde</a>
-            <a class="menu-nav" href="#">Esportes</a>
-            <a class="menu-nav" href="#">Tecnologia</a>
+            <a class="menu-nav" href="#">Inicio</a>
+            <a class="menu-nav" href="#polycy-title">Politica</a>
+            <a class="menu-nav" href="#economy-title">Economia</a>
+            <a class="menu-nav" href="#health-title">Saúde</a>
+            <a class="menu-nav" href="#sport-title">Esportes</a>
+            <a class="menu-nav" href="#technology-title">Tecnologia</a>
             <input type="text" name="buscar">
             <img src="/assets/lupa_busca.svg" alt="busca">
-
         </nav>
     </header>
 
@@ -31,7 +30,7 @@
 
             <h1> Notícias das Últimas Horas e Tendências</h1>
 
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/r1VaBz1AdYk?si=AxfQL6CrEGYAVehH"
+            <iframe class="video-hero" width="100%" height="315" src="https://www.youtube.com/embed/r1VaBz1AdYk?si=AxfQL6CrEGYAVehH"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
@@ -42,7 +41,7 @@
 
             <h2>Últimas Notícias</h2>
 
-            <h3>Politica</h3>
+            <h3 id="polycy-title">Politica</h3>
             <article class="policy">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEPHJRE1T0qLi_BGHEBYL3XMgn3J9t_KeCGA&s"
                     alt="foto-Bolsonaro">
@@ -62,7 +61,7 @@
 
             </article>
 
-            <h3>Economia</h3>
+            <h3 id="economy-title">Economia</h3>
             <article class="economy">
                 <img src="https://jpimg.com.br/uploads/2025/09/design-sem-nome-17-750x450.png" alt="Banco Centra">
                 <p>Boletim Focus: Mercado reduz projeção do PIB e mantém inflação em 4,85%.</p>
@@ -74,8 +73,8 @@
                 <p>Após incidentes de segurança no Pix, diretor do Banco Central elogia sistema de pagamentos.</p>
 
             </article>
-                <h3>Saúde</h3>
-        
+            <h3 id="health-title">Saúde</h3>
+
             <article class="health">
                 <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/acucar-no-organismo.png?w=419&h=249&crop=1"
                     alt="foto-açucar">
@@ -88,7 +87,7 @@
                 <p>Vacinas contra câncer: veja quais estão sendo testadas e o que esperar.</p>
             </article>
 
-            <h3>Esportes</h3>
+            <h3 id="sport-title">Esportes</h3>
             <article class="sport">
                 <img src="https://conteudo.imguol.com.br/c/esporte/64/2025/09/08/carlo-ancelotti-tecnico-da-selecao-brasileira-em-coletiva-na-granja-comary-1757341033582_v2_450x337.jpg.webp"
                     alt="foto-Ancelotti">
@@ -101,7 +100,7 @@
                 <p>Revolta no futebol feminino: o que diz o protocolo sobre apagões do VAR?</p>
             </article>
 
-            <h3>Tecnologia</h3>
+            <h3 id="technology-title">Tecnologia</h3>
             <article class="technology">
                 <img src="https://conteudo.imguol.com.br/c/noticias/b6/2025/02/14/nova-versao-do-aplicativo-meu-inss-promete-visualizacao-mais-fluida-e-acessos-facilitados-1739562477111_v2_300x225.jpg.webp"
                     alt="foto-App Meu INSS">
@@ -113,13 +112,14 @@
                     alt="foto-Data Centers">
                 <p>Indústria quer usar plano para data centers contra tarifaço dos EUA.</p>
             </article>
+            
         </section>
     </main>
 
     <footer>
 
-            <h5>@DevNews Brasil.Todos os direitos Resevardos.</h5>
-    
+        <h5>@DevNews Brasil.Todos os direitos Resevardos.</h5>
+
     </footer>
 
 </body>

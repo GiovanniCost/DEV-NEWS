@@ -10,9 +10,13 @@
 /*Inicio do header*/
 header {
     display: flex;
-    padding: 40px;
+    padding: 20px;
+    width: 100%;
     background-color: rgb(54, 2, 80);
     align-items: center;
+    position:sticky;
+    top: 0;
+
 }
 
 .logo-news {
@@ -48,11 +52,16 @@ nav img {
     background-color: rgb(240, 248, 255);
 }
 
+.video-hero {
+    margin: 40px 5px 15px 5px;
+    width: 100%;
+    
+}
+
 h1 {
     font-size: 40px;
     color: rgb(4, 4, 104);
-    margin: 25
-    px 25px;
+    margin: 5px 0 10px 30px;
 }
 
 .news-main {
@@ -99,7 +108,7 @@ h1 {
     display: flex;
     align-items: center;
     background-color: beige;
-    height: 300px;
+    height: 400px;
 }
 
 .economy img {
@@ -115,7 +124,7 @@ h1 {
     display: flex;
     align-items: center;
     background-color: beige;
-    height: 300px;
+    height: 400px;
 }
 
 .health img {
@@ -130,7 +139,7 @@ h1 {
     display: flex;
     align-items: center;
     background-color: beige;
-    height: 300px;
+    height: 400px;
 }
 
 .sport img {
@@ -145,7 +154,7 @@ h1 {
     display: flex;
     align-items: center;
     background-color: beige;
-    height: 300px;
+    height: 400px;
 }
 
 .technology img {
